@@ -1,9 +1,14 @@
 import React from 'react'
+import { Route, Routes } from 'react-router-dom'
+import Navbar from './Components/Navbar'
+import './App.css'
 
 const App = () => {
   return (
     <>
-      <h1>WorkerGo Frontend</h1>
+       <Routes>
+        <Route element={<Navbar/>}  path='/' />
+       </Routes>
     </>
   )
 }

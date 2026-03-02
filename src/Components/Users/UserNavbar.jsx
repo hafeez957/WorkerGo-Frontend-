@@ -9,10 +9,7 @@ const UserNavbar = () => {
     let toggle=()=>{
         setBool(!bool)
     }
-    let navigate=useNavigate()
-    let handleService=()=>{
-        navigate('/userportal/services')
-    }
+     
   return (
     < >
       <nav className='dark:bg-gray-900'>
@@ -31,7 +28,7 @@ const UserNavbar = () => {
                 <div className="">
                   <ul className='flex flex-col  justify-around gap-5'>
                     <li className='hover:bg-blue-500 rounded-xl p-1'><NavLink className=''>Home</NavLink></li>
-                    <li className='hover:bg-blue-500 rounded-xl p-1' onClick={handleService}><NavLink>Services</NavLink></li>
+                    <li className='hover:bg-blue-500 rounded-xl p-1' ><NavLink to={'/userportal/services'}>Services</NavLink></li>
                     <li className='hover:bg-blue-500 rounded-xl p-1'><NavLink> </NavLink></li>
                     <li className='hover:bg-blue-500 rounded-xl p-1'><NavLink> </NavLink></li>
                   </ul>

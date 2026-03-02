@@ -1,0 +1,184 @@
+{
+    "services":[
+  {
+    "id": 1,
+    "name": "Electrician",
+    "category": "Electrical",
+    "price": 499,
+    "rating": 4.5,
+    "image": "electrician.jpg",
+    "description": "Electrical wiring, repairs and installations."
+  },
+  {
+    "id": 2,
+    "name": "Plumber",
+    "category": "Plumbing",
+    "price": 399,
+    "rating": 4.3,
+    "image": "plumber.jpg",
+    "description": "Pipe repairs, leakage fixing and fittings."
+  },
+  {
+    "id": 3,
+    "name": "Carpenter",
+    "category": "Woodwork",
+    "price": 599,
+    "rating": 4.4,
+    "image": "carpenter.jpg",
+    "description": "Furniture repair and wood installations."
+  },
+  {
+    "id": 4,
+    "name": "Home Cleaning",
+    "category": "Cleaning",
+    "price": 799,
+    "rating": 4.6,
+    "image": "cleaning.jpg",
+    "description": "Complete home deep cleaning service."
+  },
+  {
+    "id": 5,
+    "name": "AC Repair",
+    "category": "Appliance",
+    "price": 999,
+    "rating": 4.5,
+    "image": "ac.jpg",
+    "description": "Air conditioner repair and servicing."
+  },
+  {
+    "id": 6,
+    "name": "Washing Machine Repair",
+    "category": "Appliance",
+    "price": 699,
+    "rating": 4.2,
+    "image": "washing.jpg",
+    "description": "Front and top load washing machine repair."
+  },
+  {
+    "id": 7,
+    "name": "Refrigerator Repair",
+    "category": "Appliance",
+    "price": 899,
+    "rating": 4.3,
+    "image": "fridge.jpg",
+    "description": "Fridge gas filling and cooling repair."
+  },
+  {
+    "id": 8,
+    "name": "TV Repair",
+    "category": "Appliance",
+    "price": 599,
+    "rating": 4.1,
+    "image": "tv.jpg",
+    "description": "LED/LCD TV repair and setup."
+  },
+  {
+    "id": 9,
+    "name": "Painting",
+    "category": "Home Improvement",
+    "price": 2999,
+    "rating": 4.7,
+    "image": "painting.jpg",
+    "description": "Interior and exterior wall painting."
+  },
+  {
+    "id": 10,
+    "name": "Pest Control",
+    "category": "Cleaning",
+    "price": 1499,
+    "rating": 4.4,
+    "image": "pest.jpg",
+    "description": "Termite and pest removal service."
+  },
+  {
+    "id": 11,
+    "name": "Bathroom Cleaning",
+    "category": "Cleaning",
+    "price": 499,
+    "rating": 4.2,
+    "image": "bathroom.jpg",
+    "description": "Deep bathroom sanitization."
+  },
+  {
+    "id": 12,
+    "name": "Kitchen Cleaning",
+    "category": "Cleaning",
+    "price": 599,
+    "rating": 4.3,
+    "image": "kitchen.jpg",
+    "description": "Deep kitchen cleaning service."
+  },
+  {
+    "id": 13,
+    "name": "Sofa Cleaning",
+    "category": "Cleaning",
+    "price": 799,
+    "rating": 4.5,
+    "image": "sofa.jpg",
+    "description": "Professional sofa shampoo cleaning."
+  },
+  {
+    "id": 14,
+    "name": "Water Purifier Repair",
+    "category": "Appliance",
+    "price": 699,
+    "rating": 4.3,
+    "image": "ro.jpg",
+    "description": "RO installation and repair."
+  },
+  {
+    "id": 15,
+    "name": "CCTV Installation",
+    "category": "Security",
+    "price": 1999,
+    "rating": 4.6,
+    "image": "cctv.jpg",
+    "description": "Home and office CCTV setup."
+  },
+  {
+    "id": 16,
+    "name": "Door Lock Repair",
+    "category": "Security",
+    "price": 399,
+    "rating": 4.1,
+    "image": "lock.jpg",
+    "description": "Door lock repair and replacement."
+  },
+  {
+    "id": 17,
+    "name": "Gardening",
+    "category": "Outdoor",
+    "price": 999,
+    "rating": 4.4,
+    "image": "garden.jpg",
+    "description": "Garden maintenance and landscaping."
+  },
+  {
+    "id": 18,
+    "name": "Packers & Movers",
+    "category": "Relocation",
+    "price": 4999,
+    "rating": 4.5,
+    "image": "movers.jpg",
+    "description": "House shifting services."
+  },
+  {
+    "id": 19,
+    "name": "Laptop Repair",
+    "category": "IT Services",
+    "price": 999,
+    "rating": 4.3,
+    "image": "laptop.jpg",
+    "description": "Hardware and software troubleshooting."
+  },
+  {
+    "id": 20,
+    "name": "Mobile Repair",
+    "category": "IT Services",
+    "price": 799,
+    "rating": 4.2,
+    "image": "mobile.jpg",
+    "description": "Screen replacement and repair."
+  }
+]
+}

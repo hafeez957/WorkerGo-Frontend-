@@ -17,7 +17,7 @@ const Navbar = () => {
             <h1 className='text-2xl text-blue-500'>Worker<span className='text-red-500'>Go</span></h1>
           </div>
           <div className="md:hidden">
-            <button onClick={toggle}>{bool ? <MenuIcon /> : <div className='relative left-65'><ClearIcon /></div>}</button>
+            <button onClick={toggle}>{bool ? <MenuIcon /> : <div className='relative sm:left-75 left-65'><ClearIcon /></div>}</button>
             {bool ? '' :
 
               <div id="links" className='flex flex-col'>

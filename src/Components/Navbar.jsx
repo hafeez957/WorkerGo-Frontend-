@@ -11,8 +11,8 @@ const Navbar = () => {
   }
   return (
     < >
-      <nav className='bg-gray-300'>
-        <div id="navbar" className='flex justify-between p-7 pt-3 pb-3 md:justify-around p-3.5 bg-gray-400 rounded-4xl' >
+      <nav className='dark:bg-gray-900'>
+        <div id="navbar" className='flex justify-between p-7 pt-3 pb-3 md:justify-around p-3.5 bg-gray-900 text-white rounded-4xl' >
           <div id="logo" className={bool?'block':'hidden'}>
             <h1 className='text-2xl text-blue-500'>Worker<span className='text-red-500'>Go</span></h1>
           </div>

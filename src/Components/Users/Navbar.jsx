@@ -26,9 +26,9 @@ const Navbar = () => {
                 </div>
                 <div className="">
                   <ul className='flex flex-col  justify-around gap-5'>
-                    <li className='hover:bg-blue-500 rounded-xl p-1'><NavLink className=''>Home</NavLink></li>
-                    <li className='hover:bg-blue-500 rounded-xl p-1'><NavLink>Services</NavLink></li>
-                    <li className='hover:bg-blue-500 rounded-xl p-1'><NavLink>Login</NavLink></li>
+                    <li className='hover:bg-blue-500 rounded-xl p-1'><NavLink to={'/'}>Home</NavLink></li>
+                    <li className='hover:bg-blue-500 rounded-xl p-1'><NavLink to={'/services'}>Services</NavLink></li>
+                    <li className='hover:bg-blue-500 rounded-xl p-1'><NavLink to={'/userlogin'} >Login</NavLink></li>
                     <li className='hover:bg-blue-500 rounded-xl p-1'><NavLink>Become a Worker</NavLink></li>
                   </ul>
                 </div>
@@ -38,9 +38,9 @@ const Navbar = () => {
 
           <div id="links" className='hidden md:block'>
             <ul className='flex justify-around gap-5'>
-              <li className='hover:bg-blue-500 rounded-xl p-1'><NavLink className=''>Home</NavLink></li>
+              <li className='hover:bg-blue-500 rounded-xl p-1'><NavLink>Home</NavLink></li>
               <li className='hover:bg-blue-500 rounded-xl p-1'><NavLink>Services</NavLink></li>
-              <li className='hover:bg-blue-500 rounded-xl p-1'><NavLink>Login</NavLink></li>
+              <li className='hover:bg-blue-500 rounded-xl p-1'><NavLink to={'/userlogin'}>Login</NavLink></li>
               <li className='hover:bg-blue-500 rounded-xl p-1'><NavLink>Become a Worker</NavLink></li>
             </ul>
           </div>

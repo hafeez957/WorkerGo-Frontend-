@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from './Navbar'
+import Navbar from './Users/Navbar'
 import SearchIcon from '@mui/icons-material/Search';
-import hero from '../assets/images/hero.webp'
+// import hero from 'public/assets/images/hero.webp'
 
 const LandingPage = () => {
     return (
@@ -12,7 +12,9 @@ const LandingPage = () => {
                 className="relative bg-cover bg-center h-screen flex items-center justify-center"
                   >
                  
-                <div className="absolute inset-0 bg-gray-900 bg-opacity-60 w-full bg-cover bg-center" style={{ backgroundImage: `url(${hero})` }}>
+                <div className="absolute inset-0 bg-gray-900 bg-opacity-60 w-full bg-cover bg-center" 
+                // style={{ backgroundImage: `url(${hero})` }}
+                >
 
                 </div>
 
@@ -129,10 +131,10 @@ const LandingPage = () => {
                         <div>
                             <h3 className="text-white text-lg font-semibold mb-4">Follow Us</h3>
                             <div className="flex space-x-4">
-                                <a href="#" class="hover:text-white transition">Facebook</a>
-                                <a href="#" class="hover:text-white transition">Instagram</a>
-                                <a href="#" class="hover:text-white transition">Twitter</a>
-                                <a href="#" class="hover:text-white transition">LinkedIn</a>
+                                <a href="#" className="hover:text-white transition">Facebook</a>
+                                <a href="#" className="hover:text-white transition">Instagram</a>
+                                <a href="#" className="hover:text-white transition">Twitter</a>
+                                <a href="#" className="hover:text-white transition">LinkedIn</a>
                             </div>
                         </div>
 

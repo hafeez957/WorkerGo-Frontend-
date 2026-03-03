@@ -6,7 +6,7 @@
     "category": "Electrical",
     "price": 499,
     "rating": 4.5,
-    "image": "src/assets/images/electrician.jpg",
+    "image": "/images/electrician.jpg",
     "description": "Electrical wiring, repairs and installations."
   },
   {
@@ -15,7 +15,7 @@
     "category": "Plumbing",
     "price": 399,
     "rating": 4.3,
-    "image": "src/assets/images/plumber.jpg",
+    "image": "/images/plumber.jpg",
     "description": "Pipe repairs, leakage fixing and fittings."
   },
   {
@@ -24,7 +24,7 @@
     "category": "Woodwork",
     "price": 599,
     "rating": 4.4,
-    "image": "src/assets/images/carpenter.jpg",
+    "image": "/images/carpenter.jpg",
     "description": "Furniture repair and wood installations."
   },
   {
@@ -33,7 +33,7 @@
     "category": "Cleaning",
     "price": 799,
     "rating": 4.6,
-    "image": "src/assets/images/cleaning.jpg",
+    "image": "/images/cleaning.jpg",
     "description": "Complete home deep cleaning service."
   },
   {
@@ -42,7 +42,7 @@
     "category": "Appliance",
     "price": 999,
     "rating": 4.5,
-    "image": "src/assets/images/ac.jpg",
+    "image": "/images/ac.jpg",
     "description": "Air conditioner repair and servicing."
   },
   {
@@ -51,7 +51,7 @@
     "category": "Appliance",
     "price": 699,
     "rating": 4.2,
-    "image": "src/assets/images/washing.jpeg",
+    "image": "/images/washing.jpeg",
     "description": "Front and top load washing machine repair."
   },
   {
@@ -60,7 +60,7 @@
     "category": "Appliance",
     "price": 899,
     "rating": 4.3,
-    "image": "src/assets/images/fridge.jpeg",
+    "image": "/images/fridge.jpeg",
     "description": "Fridge gas filling and cooling repair."
   },
   {
@@ -69,7 +69,7 @@
     "category": "Appliance",
     "price": 599,
     "rating": 4.1,
-    "image": "src/assets/images/tv.jpg",
+    "image": "/images/tv.jpg",
     "description": "LED/LCD TV repair and setup."
   },
   {
@@ -78,7 +78,7 @@
     "category": "Home Improvement",
     "price": 2999,
     "rating": 4.7,
-    "image": "src/assets/images/painting.jpg",
+    "image": "/images/painting.jpg",
     "description": "Interior and exterior wall painting."
   },
   {
@@ -87,7 +87,7 @@
     "category": "Cleaning",
     "price": 1499,
     "rating": 4.4,
-    "image": "src/assets/images/pest.webp",
+    "image": "/images/pest.webp",
     "description": "Termite and pest removal service."
   },
   {
@@ -96,7 +96,7 @@
     "category": "Cleaning",
     "price": 499,
     "rating": 4.2,
-    "image": "src/assets/images/bathroom.jpeg",
+    "image": "/images/bathroom.jpeg",
     "description": "Deep bathroom sanitization."
   },
   {
@@ -105,7 +105,7 @@
     "category": "Cleaning",
     "price": 599,
     "rating": 4.3,
-    "image": "src/assets/images/kitchen.jpg",
+    "image": "/images/kitchen.jpg",
     "description": "Deep kitchen cleaning service."
   },
   {
@@ -114,7 +114,7 @@
     "category": "Cleaning",
     "price": 799,
     "rating": 4.5,
-    "image": "src/assets/images/sofa.jpg",
+    "image": "/images/sofa.jpg",
     "description": "Professional sofa shampoo cleaning."
   },
   {
@@ -123,7 +123,7 @@
     "category": "Appliance",
     "price": 699,
     "rating": 4.3,
-    "image": "src/assets/images/ro.jpg",
+    "image": "/images/ro.jpg",
     "description": "RO installation and repair."
   },
   {
@@ -132,7 +132,7 @@
     "category": "Security",
     "price": 1999,
     "rating": 4.6,
-    "image": "src/assets/images/cctv.webp",
+    "image": "/images/cctv.webp",
     "description": "Home and office CCTV setup."
   },
   {
@@ -141,7 +141,7 @@
     "category": "Security",
     "price": 399,
     "rating": 4.1,
-    "image": "src/assets/images/lock.webp",
+    "image": "/images/lock.webp",
     "description": "Door lock repair and replacement."
   },
   {
@@ -150,7 +150,7 @@
     "category": "Outdoor",
     "price": 999,
     "rating": 4.4,
-    "image": "src/assets/images/garden.jpg",
+    "image": "/images/garden.jpg",
     "description": "Garden maintenance and landscaping."
   },
   {
@@ -159,7 +159,7 @@
     "category": "Relocation",
     "price": 4999,
     "rating": 4.5,
-    "image": "src/assets/images/movers.jpg",
+    "image": "/images/movers.jpg",
     "description": "House shifting services."
   },
   {
@@ -168,7 +168,7 @@
     "category": "IT Services",
     "price": 999,
     "rating": 4.3,
-    "image": "src/assets/images/laptop.jpg",
+    "image": "/images/laptop.jpg",
     "description": "Hardware and software troubleshooting."
   },
   {
@@ -177,7 +177,7 @@
     "category": "IT Services",
     "price": 799,
     "rating": 4.2,
-    "image": "src/assets/images/mobile.jpg",
+    "image": "/images/mobile.jpg",
     "description": "Screen replacement and repair."
   }
 ]

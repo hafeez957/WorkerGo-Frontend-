@@ -1,7 +1,7 @@
 import { Password } from '@mui/icons-material';
 import React, { useState } from 'react'
 import { Navigate, useNavigate } from 'react-router-dom';
-import Navbar from '../Navbar';
+import Navbar from './Navbar';
 
 const UserLogin = () => {
 

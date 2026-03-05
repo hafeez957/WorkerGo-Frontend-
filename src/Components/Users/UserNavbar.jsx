@@ -39,7 +39,7 @@ const UserNavbar = () => {
 
           <div id="links" className='hidden md:block'>
             <ul className='flex justify-around gap-5'>
-              <li className='hover:bg-blue-500 rounded-xl p-1'><NavLink >Home</NavLink></li>
+              <li className='hover:bg-blue-500 rounded-xl p-1'><NavLink to={'/userportal'}>Home</NavLink></li>
               <li className='hover:bg-blue-500 rounded-xl p-1'><NavLink to={'/userportal/services'}>Services</NavLink></li>
               <li className='hover:bg-blue-500 rounded-xl p-1'><NavLink>Help</NavLink></li>
               <li className='hover:bg-blue-500 rounded-xl p-1'><NavLink>About us</NavLink></li>

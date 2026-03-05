@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const Services = () => {
   let [servicesData,setServicesData]=useState([])
@@ -26,8 +27,10 @@ const Services = () => {
       })
       SetCategoryData(filtered_Data)
     }
-    
-    
+    let navigate=useNavigate()
+    let handleView=(id)=>{
+       navigate(`/userportal/viewmore/${id}`)
+    }
     return (
       < >
       <div id="category" className=" bg-gray-200 flex justify-center ">
@@ -84,8 +87,8 @@ const Services = () => {
           </div>
 
           {/* Button */}
-          <button className="w-full mt-4 bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition duration-300">
-            Book Now
+          <button onClick={()=>handleView(id)} className="w-full mt-4 bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition duration-300">
+            View More
           </button>
         </div>
       </div>

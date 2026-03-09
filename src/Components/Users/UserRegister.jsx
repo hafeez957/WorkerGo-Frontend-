@@ -19,7 +19,6 @@ const UserRegister = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     axios.post("http://localhost:8081/auth/register",formData)
     console.log(formData);
   };

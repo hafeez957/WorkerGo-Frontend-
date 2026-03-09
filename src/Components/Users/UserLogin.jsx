@@ -1,27 +1,32 @@
 import { Password } from '@mui/icons-material';
 import React, { useState } from 'react'
-import { Navigate, useNavigate } from 'react-router-dom';
+import { Link, Navigate, useNavigate } from 'react-router-dom';
 import Navbar from './Navbar';
+import axios from 'axios';
 
 const UserLogin = () => {
 
     let navigate = useNavigate()
 
-    let [data,setData]=useState({email:'',password:''})
+    let [data,setData]=useState({email:'',password:'',role:''})
 
     let handleChange=(e)=>{
         setData({...data,[e.target.name]:e.target.value})
     }
     console.log(data);
 
-    let handleSubmit=(e)=>{
+    
+    let handleSubmit=async(e)=>{
         e.preventDefault()
-        if(data.email==='syedhafeez957@gmail.com' && data.password==1234){
-            alert("Successfully loged in")
-            navigate('/userportal')
-        }else{
-            alert("Invalid credentials, Please try again")
-        }
+        console.log(data)
+        let backend_data=await axios.post("http://localhost:8081/auth/login",data)
+        console.log(backend_data.data.message)
+        // if(data.email==='syedhafeez957@gmail.com' && data.password==1234){
+        //     alert("Successfully loged in")
+        //     navigate('/userportal')
+        // }else{
+        //     alert("Invalid credentials, Please try again")
+        // }
     }
     
     return (
@@ -76,6 +81,18 @@ const UserLogin = () => {
                                 />
                             </div>
 
+                            {/* role section  */}
+
+                            <div>
+                                <label className="block text-gray-600 mb-2">Role</label>
+                                <select name="role" id="" required onChange={handleChange} className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                    <option value="">---select role-----</option>
+                                    <option value="user">user</option>
+                                    <option value="worker">worker</option>
+                                    <option value="admin">Admin</option>
+                                </select>
+                            </div>
+
                             {/* Forgot Password */}
                             <div className="text-right">
                                 <a
@@ -97,12 +114,9 @@ const UserLogin = () => {
                             {/* Register Link */}
                             <p className="text-center text-sm text-gray-600">
                                 Don't have an account?{" "}
-                                <a
-                                    href="/register"
-                                    className="text-blue-600 font-medium hover:underline"
-                                >
-                                    Register
-                                </a>
+                                <Link to={'/userregister'} className='text-blue-600 font-medium hover:underline'>Register</Link>
+                                   
+                                
                             </p>
 
                         </form>
